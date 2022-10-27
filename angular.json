@@ -94,12 +94,6 @@
             ],
             "scripts": []
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "baseHref": "/sistema-bombeiros/"
-          }
         }
       }
     }
