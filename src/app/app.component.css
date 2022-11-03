@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#left {
+    width: 46vw;
+    height: 100vh;
+}
+
+#right {
+    width: 54vw;
+    height: 100vh;
+}
+
+#log {
+    overflow: auto;
+    height: 24%;
+    margin: 8px;
+    border: solid 2px black;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+#gu {
+    overflow: auto;
+    margin: 8px;
+    border: solid 2px black;
+    border-radius: 6px;
+    height: 73%;
+}
+
+
+#qru {
+    overflow: auto;
+    margin: 8px;
+    border: solid 2px black;
+    border-radius: 6px;
+    height: 73%;
+}
+
+#map {
+    padding: 3px;
+    overflow: auto;
+    margin: 8px;
+    border: solid 2px black;
+    border-radius: 6px;
+    height: 724;
+}
+
+#bombeiros {
+    border-radius: 10px;
+    margin-right: 20px;
+}
+#gu-cadastrar {
+    border-radius: 10px;
+    margin-right: -50px;
+    margin-left: 50px;
+}
+
+#gu h3 {
+    margin-left: 50px;
+}

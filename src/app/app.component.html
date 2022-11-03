@@ -1,5 +1,37 @@
-<p>works</p>
-<button>
-  teste bootstrap
-  <i class="bi bi-1-circle"></i>
-</button>
+<div class="d-flex flex-row">
+  <div id="left" class="flex-column">
+    <div id="gu">
+      <div class="d-flex bg-light pt-1 pb-1 border-bottom w-100 justify-content-around">
+        <h3 class="ml-5">GUARNIÇÕES</h3>
+        <button id="gu-cadastrar" class="bi bi-plus-circle bg-success p-1"> Guarnição</button>
+        <button id="bombeiros" class="bi bi-info-circle bg-secondary p-1"> Bombeiros</button>
+      </div>
+      <tr id="gu-list" *ngFor="let guarnicao of guarnicoes" class="d-flex mt-1 border">
+        <td>{{guarnicao.callsign}}</td>
+        <td *ngFor="let bombeiro of equipe">{{bombeiro.nome}}</td>
+        <td>{{guarnicao.veiculo}}</td>
+        <td>{{guarnicao.status}}</td>
+      </tr>
+    </div>
+    <div id="log">
+      <p class="justify-content-center text-center bg-light border-bottom">Log de eventos</p>
+    </div>
+  </div>
+  <div id="right" class="flex-column">
+    <div id="qru">
+      <h3 class="justify-content-center text-center bg-light pt-1 pb-1 border-bottom">OCORRÊNCIAS</h3>
+      <table class="table">
+        <tr>
+          <th>qrus</th>
+        </tr>
+        <tr>
+          <td>oi</td>
+        </tr>
+      </table>
+    </div>
+    <div id="map">
+      <p>mapa</p>
+    </div>
+  </div>
+
+</div>
